@@ -11,4 +11,5 @@ public class WeaponsData : ScriptableObject
     public int magazineSize = 30;
 
     public AudioClip fireSound;
+    public AudioClip reloadSound;
 }

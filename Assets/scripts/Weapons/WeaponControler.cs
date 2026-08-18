@@ -110,6 +110,7 @@ public class WeaponControler : MonoBehaviour
     private IEnumerator RecargarCorutina()
     {
         EstaRecargando = true;
+        audiosource.PlayOneShot(weaponData.reloadSound);
         SoltarMagAlPiso();
         yield return new WaitForSeconds(tiempoRecarga);
 

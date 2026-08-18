@@ -19,3 +19,4 @@ MonoBehaviour:
   range: 100
   magazineSize: 30
   fireSound: {fileID: 8300000, guid: f9ab20b4342184a46921955b3300481d, type: 3}
+  reloadSound: {fileID: 8300000, guid: 82ab12c3d05cb3244a685281f8934e26, type: 3}
